@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                sh 'docker run -dp 3000:3000 docker-getting-started'
+                sh 'docker run -dp 3030:3030 docker-getting-started'
             }
           }
     }
